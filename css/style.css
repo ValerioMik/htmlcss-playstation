@@ -2,6 +2,27 @@
 
 /* regole di debug */
 
+[class*="col-"]{
+    min-height: 75px;
+    background-color: rgb(0, 17, 255);
+    border:solid 1px white;
+}
+
+
+/* regole header */
+
+#dimensione_logo{
+    width: 80px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.logo{
+    background-color: black;
+    height: 25px;
+}
+
+
 /* regole playstation 5 */
 
 /* regole generali jumbotron 1 e 2 */
