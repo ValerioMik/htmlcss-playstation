@@ -1,12 +1,19 @@
 /* regole generali */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    font-family: Helvetica, sans-serif;
+}
 
 /* regole di debug */
 
-[class*="col-"]{
+/* [class*="col-"]{
     min-height: 75px;
     background-color: rgb(0, 17, 255);
     border:solid 1px white;
-}
+} */
 
 
 /* regole header */
@@ -22,11 +29,82 @@
     height: 25px;
 }
 
+.img-thumbnail{
+    border-radius: 1.25rem;
+}
+
+.centra{
+  width: 100%;
+}
+
+.jumbotron{
+    position: relative;
+    margin-top: 76px;
+    
+}
+
+.testoreturnal{
+    position: absolute;
+    top: 54%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: auto;
+}
+.solotesto{
+    width: 220px;
+}
+
 
 /* regole playstation 5 */
 
+.play_,.sottotesto{
+    text-align: center;
+}
+
+#testoblue{
+    color: blue;
+    text-align: center;
+    font-size: 22px;
+}
+
+.play_{
+font-size: 50px;
+}
+
+.sottotesto{
+        font-size: 26px;
+}
+
+.top{
+    margin-top: 120px;
+}
+.cin{
+    text-align: start;
+}
+
+.img-thumbnail{
+    border: 1px solid #fff;
+}
+
+
+
+
 /* regole generali jumbotron 1 e 2 */
 
+.titolijumbo{
+    color: white;
+    margin-top: 20px;
+}
+
+.pjumbo{
+    color: white;
+    font-size: 13px;
+}
+
+.btn{
+    border-radius: 1.25rem;
+}
 /* regole generali PLUS e NOW */
 
 /* regole sconti */
