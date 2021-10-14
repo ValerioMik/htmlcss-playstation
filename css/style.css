@@ -67,6 +67,26 @@ font-size: 50px;
 .img-thumbnail{
     border: 1px solid #fff;
 }
+#console5{
+    text-align: center;
+}
+
+#premuto{
+    width: 100%;
+    height: 4px;
+    border-bottom: 2px solid blue;
+}
+
+#accessori{
+    margin-top: 30px;
+}
+
+@media all and (max-width: 990px) {
+    #console5{
+        color: white;
+        position: absolute;
+    }
+}
 
 
 
