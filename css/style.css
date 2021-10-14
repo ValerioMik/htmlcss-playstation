@@ -9,7 +9,7 @@ body{
 
 /* regole di debug */
 
-/* [class*="col-"]{
+/* [class*="col"]{
     min-height: 75px;
     background-color: rgb(0, 17, 255);
     border:solid 1px white;
@@ -86,7 +86,7 @@ font-size: 50px;
         color: white;
         position: absolute;
     }
-}
+}       
 
 
 
@@ -138,6 +138,15 @@ font-size: 50px;
 .text-jumbotron h3 {
     font-weight: bold;
     margin: 25px 0;
+}
+
+._figure{
+    background-color: #11181e;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.13);
 }
 /* regole generali PLUS e NOW */
 
