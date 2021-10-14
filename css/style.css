@@ -37,25 +37,6 @@ body{
   width: 100%;
 }
 
-.jumbotron{
-    position: relative;
-    margin-top: 76px;
-    
-}
-
-.testoreturnal{
-    position: absolute;
-    top: 26%;
-    left: 29%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    height: auto;
-}
-.solotesto{
-    width: 220px;
-}
-
-
 /* regole playstation 5 */
 
 .play_,.sottotesto{
@@ -104,6 +85,39 @@ font-size: 50px;
 
 .btn{
     border-radius: 1.25rem;
+}
+
+.jumbotron-bg {
+    margin-top: 100px;
+    height: 675px;
+    position: relative;
+}
+
+.jumbotron-bg #jumbo-img {
+    height: 675px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.text-jumbotron {
+    color: white;
+    height: 100%;
+    max-width: 35%;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.text-jumbotron img {
+    width: 250px;
+}
+
+.text-jumbotron h3 {
+    font-weight: bold;
+    margin: 25px 0;
 }
 /* regole generali PLUS e NOW */
 
