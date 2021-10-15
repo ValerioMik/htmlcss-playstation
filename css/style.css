@@ -150,6 +150,50 @@ font-size: 50px;
 }
 /* regole generali PLUS e NOW */
 
+.grey{
+    background-color: rgb(167, 166, 166);
+}
+
+#logoplus{
+    width: 65%;
+    margin: 30px;
+}
+
+.sottoplus{
+    margin: 30px;
+    font-size: 25px;
+}
+
+.button_plus{
+    margin-left: 25px;
+}
+
+.btn-light {
+    color: #0028ff;
+    background-color: #c7c9cc;
+    border-color: #c7c9cc;
+}
+
+.btn {
+    border-radius: 3.25rem;
+    font-size: 2rem;
+}
+
+@media all and (max-width 990px) {
+
+    #monthlyhidden{
+        position: absolute;
+        display: none;
+    }
+}
+
+.img-thumbnail {
+    border-radius: -0.75rem;
+}
 /* regole sconti */
+
+.blue{
+    background-color: rgb(34, 34, 85);
+}
 
 /* regole footer */
