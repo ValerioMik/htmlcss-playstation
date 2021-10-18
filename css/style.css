@@ -179,12 +179,7 @@ font-size: 50px;
     font-size: 2rem;
 }
 
-@media all and (max-width 990px) {
 
-    .nascosto {
-        visibility: hidden !important;
-      }
-}
 
 .img-thumbnail {
     border-radius: -0.75rem;
@@ -215,4 +210,12 @@ a{
 
 li{
   list-style: none;
+}
+
+#-slogoonyvecchio{
+    width: 127px;
+}
+
+#playfooter{
+    width: 130px;
 }
